@@ -1,0 +1,328 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    margin: 0
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace
+}
+
+.App {
+    background-color: #212121;
+    height: 100vh;
+    min-width: 100vw;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content
+}
+
+.Super-Page {
+    height: 100%;
+    width: 100%
+}
+
+.Super-Page .Field-Container {
+    background-color: #fff;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin-left: 5%;
+    min-height: 90%;
+    overflow-y: scroll;
+    width: 90%
+}
+
+.Super-Page .Field-Container .Add-Field {
+    background-color: green;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    height: 200px;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: 10px;
+    text-align: center;
+    transition: background-color 1s;
+    width: 80%
+}
+
+.Super-Page .Field-Container .Add-Field:hover {
+    background-color: blue;
+    box-shadow: #000
+}
+
+.Navigation {
+    background-color: green;
+    color: tan;
+    font-size: 5vmin;
+    margin: 0;
+    padding: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%
+}
+
+.Field-Card-Super {
+    display: flex;
+    height: 300px;
+    overflow-x: scroll;
+    width: 100%
+}
+
+.Field-Card-Super .Image-Container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    width: 300px
+}
+
+.Field-Card-Super .Image-Container img {
+    height: 200px;
+    width: 300px
+}
+
+.Field-Card-Super .Input-Container {
+    margin-left: 50px
+}
+
+.Root {
+    background-color: #212121
+}
+
+.Top-Field {
+    color: #f6fbf4;
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+    margin-bottom: 3%;
+    width: 100%
+}
+
+.Top-Field span {
+    font-size: 5vmin;
+    text-align: center
+}
+
+.Input-Form {
+    background-color: #4b8673;
+    border-radius: 50px;
+    height: 60%;
+    margin-left: 25%;
+    text-align: center;
+    width: 50%
+}
+
+.Input-Form .Container {
+    color: #f6fbf4;
+    display: flex;
+    flex-direction: column;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin-top: 5%
+}
+
+.Input-Form .Container span {
+    font-size: 5vmin
+}
+
+.Input-Form .Container input {
+    border-radius: 50px;
+    height: 5vmin;
+    margin-left: 25%;
+    width: 50%
+}
+
+.Input-Form .Container input:focus {
+    outline: none
+}
+
+.Input-Form .NewUser-Container {
+    color: #f6fbf4;
+    font-size: 2vmin;
+    font-weight: 700
+}
+
+.Input-Form .NewUser-Container a, .Input-Form .NewUser-Container a :visited {
+    color: #f5df99;
+    text-decoration: none
+}
+
+.Input-Form .Login-Container h2 {
+    color: #f5df99
+}
+
+.Input-Form .Login-Container input {
+    font-size: 3vmin;
+    margin-left: 35%;
+    width: 30%
+}
+
+.Root {
+    height: 100vh;
+    width: 100vw
+}
+
+.Root .Top-Field {
+    color: #f6fbf4;
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+    margin-bottom: 3%;
+    width: 100%
+}
+
+.Root .Top-Field span {
+    font-size: 5vmin;
+    text-align: center
+}
+
+.Root .Input-Form {
+    background-color: #4b8673;
+    border-radius: 50px;
+    height: 60%;
+    margin-left: 25%;
+    text-align: center;
+    width: 50%
+}
+
+.Root .Input-Form .Container {
+    color: #f6fbf4;
+    display: flex;
+    flex-direction: column;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin-top: 1%
+}
+
+.Root .Input-Form .Container span {
+    font-size: 4vmin
+}
+
+.Root .Input-Form .Container input {
+    border-radius: 50px;
+    height: 4vmin;
+    margin-left: 30%;
+    width: 40%
+}
+
+.Root .Input-Form .Container input:focus {
+    outline: none
+}
+
+.Root .Input-Form .OldUser-Container {
+    color: #f6fbf4;
+    font-size: 2vmin;
+    font-weight: 700
+}
+
+.Root .Input-Form .OldUser-Container a, .Root .Input-Form .OldUser-Container a :visited {
+    color: #f5df99;
+    text-decoration: none
+}
+
+.Root .Input-Form .Login-Container input {
+    font-size: 3vmin;
+    margin-left: 35%;
+    width: 30%
+}
+
+.Account-Page {
+    background-color: #212121;
+    height: 100%;
+    width: 100%
+}
+
+.Account-Page .Account-Details {
+    margin-left: 20%;
+    margin-top: 50px;
+    min-height: 80%;
+    width: 60%
+}
+
+.Account-Page .Account-Details, .HomePage {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content
+}
+
+.HomePage {
+    background-color: #212121;
+    min-height: 100vh;
+    width: 100vw
+}
+
+.HomePage .Search-Bar-Button-Container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content
+}
+
+.Search-Bar {
+    background-color: #b52f2f;
+    height: 100%;
+    width: 100%
+}
+
+.Search-Bar .Location-Filter {
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    justify-content: space-around;
+    width: 90%
+}
+
+.Search-Bar .Location-Filter .Filter-Column {
+    width: 15%
+}
+
+.Search-Bar .Location-Filter .Filter-Column .Filter-Input {
+    width: 100%
+}
+
+.Search-Bar .Other-Filter {
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+    justify-content: center;
+    margin-top: 25px;
+    width: 90%
+}
+
+.Search-Bar .Other-Filter .Filter-Input {
+    margin-bottom: 15px;
+    margin-left: 50px;
+    width: 10%
+}
+
+.Detail-Card {
+    background-color: rgba(0, 0, 0, .7);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw
+}
+
+.Reservation-Page {
+    background-color: #212121
+}
+
+/*# sourceMappingURL=main.3f37b8b4.css.map*/
