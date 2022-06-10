@@ -1,0 +1,21 @@
+
+.Field-Card-Super{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  overflow-x: scroll;
+  .Image-Container{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    img{
+      width: 300px;
+      height: 200px;
+    }
+  }
+  .Input-Container{
+    margin-left: 50px;
+  }
+}

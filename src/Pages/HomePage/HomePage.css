@@ -1,0 +1,16 @@
+.HomePage {
+  width: 100vw;
+  min-height: 100vh;
+  height: fit-content;
+  background-color: #212121; }
+  .HomePage .Search-Bar-Button-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    position: fixed;
+    width: fit-content;
+    left: 0px;
+    top: 0px; }
+
+/*# sourceMappingURL=HomePage.css.map */

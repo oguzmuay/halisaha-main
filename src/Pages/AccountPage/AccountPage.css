@@ -1,0 +1,12 @@
+.Account-Page {
+  width: 100%;
+  height: 100%;
+  background-color: #212121; }
+  .Account-Page .Account-Details {
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 20%;
+    height: fit-content;
+    min-height: 80%; }
+
+/*# sourceMappingURL=AccountPage.css.map */

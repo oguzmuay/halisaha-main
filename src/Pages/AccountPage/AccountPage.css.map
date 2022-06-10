@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,aAAa;EACX,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAE,OAAkB;EACpC,8BAAgB;IACd,KAAK,EAAE,GAAG;IACV,UAAU,EAAE,IAAI;IAChB,WAAW,EAAE,GAAG;IAChB,MAAM,EAAE,WAAW;IACnB,UAAU,EAAE,GAAG",
+"sources": ["AccountPage.scss"],
+"names": [],
+"file": "AccountPage.css"
+}
